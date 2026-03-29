@@ -23,3 +23,50 @@ ExplorationBonus.Multiplier = 1.15
 #        Default:     1 (Habilitado)
 #                     0 (Deshabilitado)
 ExplorationBonus.Announce = 1
+
+#
+#    ExplorationBonus.ApplyToKills
+#        Description: Aplica el bonus a la XP obtenida por matar enemigos.
+#        Default:     1 (Habilitado)
+ExplorationBonus.ApplyToKills = 1
+
+#
+#    ExplorationBonus.ApplyToQuests
+#        Description: Aplica el bonus a la XP obtenida por entregar misiones (normales y LFG).
+#        Default:     1 (Habilitado)
+ExplorationBonus.ApplyToQuests = 1
+
+#
+#    ExplorationBonus.ApplyToExplore
+#        Description: Aplica el bonus a la XP de exploración (descubrir nuevas áreas).
+#                     Deshabilitado por defecto para evitar acumulación con la recompensa de exploración.
+#        Default:     0 (Deshabilitado)
+ExplorationBonus.ApplyToExplore = 0
+
+#
+#    ExplorationBonus.ApplyToBattleground
+#        Description: Aplica el bonus a la XP obtenida en Campos de Batalla.
+#                     Deshabilitado por defecto ya que el jugador no está físicamente en la zona.
+#        Default:     0 (Deshabilitado)
+ExplorationBonus.ApplyToBattleground = 0
+
+#
+#    ExplorationBonus.AccountWide
+#        Description: Activa el bonus acumulativo por cuenta.
+#                     Cuando está habilitado, el multiplicador se apila por cada personaje
+#                     de la misma cuenta que tenga el logro de exploración en esa zona.
+#                     Ejemplo: 4 personajes con el logro de Westfall = +15% * 4 = +60% XP.
+#                     El personaje actual también debe tener el logro para recibir el bonus.
+#        Default:     1 (Habilitado — bonus acumulativo por cuenta)
+#                     0 (Deshabilitado — bonus plano por personaje)
+ExplorationBonus.AccountWide = 1
+
+#
+#    ExplorationBonus.ZoneNotifyCooldown
+#        Description: Tiempo en segundos entre avisos de "falta explorar esta zona".
+#                     El mensaje solo se muestra al entrar en la zona y luego se repite
+#                     cada N segundos mientras el jugador siga sin tener el logro.
+#                     Usa 0 para mostrar el mensaje siempre que se entre a la zona.
+#        Default:     300 (5 minutos)
+ExplorationBonus.ZoneNotifyCooldown = 300
+
